@@ -1,0 +1,163 @@
+import { MockupItem } from './db';
+
+export function generate11Mockups(productType: string, designTitle: string, style: string): MockupItem[] {
+  const p = productType.toLowerCase();
+
+  return [
+    {
+      id: 1,
+      type: 'hero',
+      is_hero: true,
+      title: 'Main Etsy Hero Mockup',
+      purpose: 'Primary search thumbnail & hero presentation (CTR-optimized)',
+      scene: `Clean aesthetic premium studio presentation for ${productType} with subtle textured background.`,
+      camera: 'Front 90-degree flat overhead view, crisp 50mm f/4 lens, hyper-sharp focus.',
+      lighting: 'Soft diffused natural morning studio light, subtle gradient falloff.',
+      composition: `${productType} centered with 15% breathable negative space, eye-catching color contrast.`,
+      product_placement: `Product laid flat, artwork "${designTitle}" centered at precise 1:1 scale on chest/front area.`,
+      negative_prompt: 'distorted anatomy, blurred text, garish watermarks, cluttered props, fake reflections.',
+      preview_bg_color: '#15171e',
+      badge: 'HERO 01'
+    },
+    {
+      id: 2,
+      type: 'lifestyle',
+      title: 'Lifestyle in Motion',
+      purpose: 'Showcase real-world usage and relatable emotional connection',
+      scene: `Contemporary coffee shop patio or sunlit urban loft featuring ${productType}.`,
+      camera: 'Medium portrait shot, 85mm lens at f/2.0 with creamy background bokeh.',
+      lighting: 'Warm ambient golden-hour natural side lighting.',
+      composition: 'Rule of thirds, model wearing/holding ${productType}, graphic clearly legible.',
+      product_placement: 'Natural drape and movement showing fabric texture and drape.',
+      negative_prompt: 'unnatural posture, plastic skin, distorted fingers, dark shadows.',
+      preview_bg_color: '#1e1c18',
+      badge: 'LIFESTYLE 02'
+    },
+    {
+      id: 3,
+      type: 'closeup',
+      title: 'Macro Print & Fabric Detail',
+      purpose: 'Demonstrate premium direct-to-garment print clarity and fabric weave',
+      scene: `Macro studio tabletop highlighting tactile weave and ink absorption.`,
+      camera: '100mm macro lens at 35-degree angle, sharp micro-contrast.',
+      lighting: 'Directional raking light skimming across surface to accentuate high-end material quality.',
+      composition: 'Tight crop on typography and central vector graphic element.',
+      product_placement: 'Taut surface showing ink bonding with zero cracking or fading.',
+      negative_prompt: 'pixelated artifacts, digital blur, oversaturated highlights.',
+      preview_bg_color: '#181a24',
+      badge: 'MACRO 03'
+    },
+    {
+      id: 4,
+      type: 'flatlay',
+      title: 'Styled Outfit Flat Lay',
+      purpose: 'Style inspiration & outfit pairing to trigger impulse purchasing',
+      scene: 'Reclaimed weathered wood or neutral linen flatlay table with matching curated everyday accessories.',
+      camera: 'Top-down 90-degree bird-eye perspective.',
+      lighting: 'Bright, balanced neutral daylight with soft ambient contact shadows.',
+      composition: `${productType} neatly arranged alongside sunglasses, notebook, or denim jacket.`,
+      product_placement: 'Unwrinkled display with artwork completely unobstructed in central view.',
+      negative_prompt: 'messy, overlapping props covering artwork, harsh dark shadows.',
+      preview_bg_color: '#211d19',
+      badge: 'FLAT LAY 04'
+    },
+    {
+      id: 5,
+      type: 'studio',
+      title: 'Minimalist Clean Studio',
+      purpose: 'High-contrast catalog showcase with zero visual distractions',
+      scene: 'Modern architectural concrete or smooth matte gallery wall backdrop.',
+      camera: 'Straight-on eye-level view, 50mm prime lens.',
+      lighting: 'Balanced dual softbox lighting eliminating harsh shadows.',
+      composition: 'Minimalist display on natural beechwood hanger or sleek stand.',
+      product_placement: 'Crisp symmetrical alignment with clear silhouette.',
+      negative_prompt: 'tilted horizon, uneven lighting, dust spots, wrinkles.',
+      preview_bg_color: '#1c1e26',
+      badge: 'STUDIO 05'
+    },
+    {
+      id: 6,
+      type: 'outdoor',
+      title: 'Outdoor Environmental',
+      purpose: 'Connect product to adventure, fresh air, and seasonal vibes',
+      scene: 'Sun-dappled botanical park, forest trail, or coastal promenade.',
+      camera: 'Action walking frame, 35mm wide documentary style.',
+      lighting: 'Natural open sunlight with golden reflections.',
+      composition: 'Dynamic posture showing real fit in active environment.',
+      product_placement: 'Naturally worn with realistic garment creasing.',
+      negative_prompt: 'blown-out highlights, motion blur, bad eyes.',
+      preview_bg_color: '#16221a',
+      badge: 'OUTDOOR 06'
+    },
+    {
+      id: 7,
+      type: 'desk',
+      title: 'Workstation & Daily Setup',
+      purpose: 'Everyday creative and casual lifestyle integration',
+      scene: 'Minimalist Scandinavian oak desk with laptop, plant, and artisan coffee.',
+      camera: 'High 45-degree angle desk overview.',
+      lighting: 'Warm lamp illumination paired with window glow.',
+      composition: 'Cozy productive desk aesthetic complementing the ${style} vibe.',
+      product_placement: 'Carefully placed to highlight front graphic prominently.',
+      negative_prompt: 'cluttered cords, reflective glare on design.',
+      preview_bg_color: '#221d1b',
+      badge: 'DESK 07'
+    },
+    {
+      id: 8,
+      type: 'home',
+      title: 'Cozy Home Environment',
+      purpose: 'Comfort, warmth, and weekend relaxation aesthetic',
+      scene: 'Warm living room with textured boucle sofa and soft neutral throw blankets.',
+      camera: 'Medium intimate lifestyle portrait, 50mm f/1.8.',
+      lighting: 'Diffused window light and gentle interior lamps.',
+      composition: 'Relaxed seated pose conveying comfort and premium softness.',
+      product_placement: 'Casual drape highlighting soft feel and wearable quality.',
+      negative_prompt: 'messy background, flash photography glare.',
+      preview_bg_color: '#281f1b',
+      badge: 'HOME 08'
+    },
+    {
+      id: 9,
+      type: 'gift',
+      title: 'Gift Packaging & Unboxing',
+      purpose: 'Position product as the ultimate thoughtful gift for holidays and celebrations',
+      scene: 'Festive or minimalist unboxing setting with recyclable kraft box and satin ribbon.',
+      camera: 'Top-angled reveal shot catching the first-look moment.',
+      lighting: 'Warm celebratory rim lighting.',
+      composition: 'Box partially opened with ${productType} neatly tissue-wrapped inside.',
+      product_placement: 'Folded reveal displaying the graphic hero center.',
+      negative_prompt: 'damaged box, messy plastic bags, cheap appearance.',
+      preview_bg_color: '#251e22',
+      badge: 'GIFT 09'
+    },
+    {
+      id: 10,
+      type: 'model',
+      title: 'Fashion Model Lookbook',
+      purpose: 'High-end apparel brand aesthetic showing modern fit and styling',
+      scene: 'Urban architectural entryway with clean lines and subtle neutral tones.',
+      camera: 'Full 3/4 fashion editorial shot, 70mm lens.',
+      lighting: 'High-fashion editorial beauty dish lighting with soft edge rim.',
+      composition: 'Confident contemporary pose styled with current trend footwear and trousers.',
+      product_placement: 'Flawless fit emphasizing true-to-size retail drape.',
+      negative_prompt: 'deformed anatomy, awkward hands, exaggerated expressions.',
+      preview_bg_color: '#1b2029',
+      badge: 'MODEL 10'
+    },
+    {
+      id: 11,
+      type: 'detail',
+      title: 'Size Guide & Craftsmanship Badge',
+      purpose: 'Eradicate buyer hesitation with clear sizing and spec callouts',
+      scene: 'Clean catalog graphic layout with dimension lines and fabric badges.',
+      camera: 'Flat technical reference angle, 50mm.',
+      lighting: 'Even, shadowless high-CRI 95+ studio light.',
+      composition: 'Clear annotations for chest width, length, and premium stitching.',
+      product_placement: 'Garment laid flat with precise measurement callouts.',
+      negative_prompt: 'unreadable typography, conflicting measurements.',
+      preview_bg_color: '#191b22',
+      badge: 'SPECS 11'
+    }
+  ];
+}

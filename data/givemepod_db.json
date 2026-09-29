@@ -1,0 +1,2613 @@
+{
+  "users": [
+    {
+      "id": "user_admin_kalo",
+      "google_sub": "kalo_admin",
+      "email": "kalo@givemepod.com",
+      "name": "Admin Merwane (kalo)",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T12:26:53.146Z",
+      "last_active": "2026-09-29T12:26:53.146Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    },
+    {
+      "id": "user_master",
+      "google_sub": "sub_master",
+      "email": "member@givemepod.com",
+      "name": "GiveMePOD Member",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "last_active": "2026-09-29T11:49:34.595Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    },
+    {
+      "id": "usr_l8z1",
+      "google_sub": "key_L8Z1",
+      "email": "license_l8z1@givemepod.com",
+      "name": "POD Creator (L8Z1)",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=L8Z1",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T11:49:38.227Z",
+      "last_active": "2026-09-29T11:49:38.227Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    },
+    {
+      "id": "usr_r3t5",
+      "google_sub": "key_R3T5",
+      "email": "license_r3t5@givemepod.com",
+      "name": "POD Creator (R3T5)",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=R3T5",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T12:19:21.005Z",
+      "last_active": "2026-09-29T12:19:21.005Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    },
+    {
+      "id": "usr_e9r4",
+      "google_sub": "key_E9R4",
+      "email": "license_e9r4@givemepod.com",
+      "name": "POD Creator (E9R4)",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=E9R4",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T12:21:25.705Z",
+      "last_active": "2026-09-29T12:21:25.705Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    },
+    {
+      "id": "usr_c5b9",
+      "google_sub": "key_C5B9",
+      "email": "license_c5b9@givemepod.com",
+      "name": "POD Creator (C5B9)",
+      "avatar": "https://api.dicebear.com/7.x/identicon/svg?seed=C5B9",
+      "role": "USER",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T12:27:10.297Z",
+      "last_active": "2026-09-29T12:27:10.297Z",
+      "onboarding": {
+        "experience": "Advanced",
+        "mainPlatform": "Etsy",
+        "favoriteProduct": "T-Shirts",
+        "completed": true
+      }
+    }
+  ],
+  "access_codes": [
+    {
+      "id": "code_admin_kalo",
+      "code_hash": "b8f48344f7021ccacfc98626575c048ac364cef62737408c76638f72f8edac78",
+      "suffix": "KALO",
+      "status": "ACTIVE",
+      "assigned_user_id": "user_admin_kalo",
+      "created_at": "2026-09-29T12:26:53.146Z",
+      "activated_at": "2026-09-29T12:26:53.146Z",
+      "last_used_at": "2026-09-29T12:26:53.146Z",
+      "revoked_at": null,
+      "created_by": "system_root",
+      "notes": "Master Administrator Key (kalo@123)"
+    },
+    {
+      "id": "code_1",
+      "code_hash": "8ab25b4f83601890ecf345e8d30d25f346b0bfabe55ce183e37d7f9972fb5171",
+      "suffix": "L8Z1",
+      "status": "ACTIVE",
+      "assigned_user_id": "usr_l8z1",
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": "2026-09-29T11:49:38.228Z",
+      "last_used_at": "2026-09-29T12:27:05.850Z",
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #1"
+    },
+    {
+      "id": "code_2",
+      "code_hash": "d2964cc4f920444867bf81f5a15c81fea8bcc6cd437c292229ecf56322d5541e",
+      "suffix": "C5B9",
+      "status": "ACTIVE",
+      "assigned_user_id": "usr_c5b9",
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": "2026-09-29T12:27:10.298Z",
+      "last_used_at": "2026-09-29T12:27:10.298Z",
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #2"
+    },
+    {
+      "id": "code_3",
+      "code_hash": "6cbe013418da09da2fe7bec9827fe352698a59822cdd109f19d81c17d4716dab",
+      "suffix": "R3T5",
+      "status": "ACTIVE",
+      "assigned_user_id": "usr_r3t5",
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": "2026-09-29T12:19:21.006Z",
+      "last_used_at": "2026-09-29T12:19:21.006Z",
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #3"
+    },
+    {
+      "id": "code_4",
+      "code_hash": "b5b413fb282c01b1bfb63fd3574e2ffc573d91f2d3c4615a1735da5a7992dc48",
+      "suffix": "O7P0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #4"
+    },
+    {
+      "id": "code_5",
+      "code_hash": "efd485020745eb282e4ba0d8b621c9cca0f172862f8208f99e587e9de9f658b4",
+      "suffix": "F1G6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #5"
+    },
+    {
+      "id": "code_6",
+      "code_hash": "866780089a6d93b3c2c648e82d33f9b01a5a4666c08898f8a6f4ffb0fc8d38b9",
+      "suffix": "L0Z4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #6"
+    },
+    {
+      "id": "code_7",
+      "code_hash": "259dc137405ed17379a3faf7cb52e9845ce115cddf70478fd32c41fd98450a1f",
+      "suffix": "B2N5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #7"
+    },
+    {
+      "id": "code_8",
+      "code_hash": "58b40a0ddbf02eae0346165807c25e20a25602f5411b3e13a733be4fcb90d46d",
+      "suffix": "E9R4",
+      "status": "ACTIVE",
+      "assigned_user_id": "usr_e9r4",
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": "2026-09-29T12:21:25.707Z",
+      "last_used_at": "2026-09-29T12:21:25.707Z",
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #8"
+    },
+    {
+      "id": "code_9",
+      "code_hash": "0f67e1615c5f88c3c36ce35e525803bc48c13e3f5814136ebf8bf56da612388d",
+      "suffix": "I5O7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #9"
+    },
+    {
+      "id": "code_10",
+      "code_hash": "969513dfb18a74422e6f2bb7c8363073abb604131069992aa5c7939f8401df19",
+      "suffix": "D0F2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #10"
+    },
+    {
+      "id": "code_11",
+      "code_hash": "6d228a6790f487d7b7602cb1a5bc3f6d99743ac55ef64c1144f53ff1bc8105c5",
+      "suffix": "K4L7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #11"
+    },
+    {
+      "id": "code_12",
+      "code_hash": "7641157db7c94477f26d3441cca0ffd91ba0b9348bebb72b287ee60500a6c2a9",
+      "suffix": "V3B6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #12"
+    },
+    {
+      "id": "code_13",
+      "code_hash": "7afb6d64cc0edef2f01318893b77805e7a59af6e1f50bf4be8681d39d4e792c8",
+      "suffix": "W5E7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #13"
+    },
+    {
+      "id": "code_14",
+      "code_hash": "e04fdc606c8c184c31abef094f4ae3f8efb855be6bfdb0dcc4348ee2688e2f7d",
+      "suffix": "U9I2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #14"
+    },
+    {
+      "id": "code_15",
+      "code_hash": "327b700f2d5da2eeb37a015ae2df950a5240e79e2b1d931f09b605744a822eda",
+      "suffix": "S4D8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #15"
+    },
+    {
+      "id": "code_16",
+      "code_hash": "d06f762f8e7baf3ac53ccae444d478c721bcba5a2ae225193a162ffa137b0cfc",
+      "suffix": "J3K5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #16"
+    },
+    {
+      "id": "code_17",
+      "code_hash": "5828a4de90895357b39ea81c4218c71c45ba7ae87c838b876775d6a9029f0a97",
+      "suffix": "C7V9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #17"
+    },
+    {
+      "id": "code_18",
+      "code_hash": "fa79bcb1eca62810553763dea103e1434c7007f921626e77b31988092594ff5a",
+      "suffix": "Q2W8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #18"
+    },
+    {
+      "id": "code_19",
+      "code_hash": "fe682c26265d4a61f28a27a3d1704d31f0728a9ae90ce98cae1788a0a7f5ea42",
+      "suffix": "Y4U9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #19"
+    },
+    {
+      "id": "code_20",
+      "code_hash": "83340eec6493898b7c5128851c31957200396eacd6fa59145a36550b802d0755",
+      "suffix": "A2S8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #20"
+    },
+    {
+      "id": "code_21",
+      "code_hash": "371dc080d0c897c1840cc21ed809c35b4104a9c3d1635160c3f9214a065c8fcd",
+      "suffix": "H0J6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #21"
+    },
+    {
+      "id": "code_22",
+      "code_hash": "ffd6e1ec69916c9dae790d804195495c65fa08fdb99ceb46945f1fa848e05b84",
+      "suffix": "X8C3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #22"
+    },
+    {
+      "id": "code_23",
+      "code_hash": "f035bd9abf6aacbc90d3bbd99529253f55cb817bcc5b455e7a3f3dc437344e2b",
+      "suffix": "M1Q9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #23"
+    },
+    {
+      "id": "code_24",
+      "code_hash": "924fba23550c4be6a1e5f1e79370a7508a8deaf31fdac431450865ebe0c21b07",
+      "suffix": "T8Y0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #24"
+    },
+    {
+      "id": "code_25",
+      "code_hash": "14a598e6759c9e050dd448635306b780c38cb9da719a4dbe9485e3e0484a912d",
+      "suffix": "P4A9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #25"
+    },
+    {
+      "id": "code_26",
+      "code_hash": "fe74de83ce64a05dc669482e70fd8547050a956ff77ca4e0602d238a3624c594",
+      "suffix": "G8H2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #26"
+    },
+    {
+      "id": "code_27",
+      "code_hash": "6c129e074ea87251a2d534ed48ba298da309e68faaff1f85162b584474fc0189",
+      "suffix": "Z4X6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #27"
+    },
+    {
+      "id": "code_28",
+      "code_hash": "51b7399bd4e1df8d5fdbf4b3f26bc4106d511b1becf5bc9e5c68a4c2cf7c65ed",
+      "suffix": "N0M3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #28"
+    },
+    {
+      "id": "code_29",
+      "code_hash": "4729ab2b6eac6d315b4a72bcd4c75d9e51df36f0e04cafc18b1595f651097721",
+      "suffix": "R9T6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #29"
+    },
+    {
+      "id": "code_30",
+      "code_hash": "7d688e3c809605971ebbaf887a8954e09f27f3e0e246d4add9dfa79802e47889",
+      "suffix": "O8P3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #30"
+    },
+    {
+      "id": "code_31",
+      "code_hash": "2e1ee64983badd58cf968ee625a63b481e311ec43e51ea772a9aee56e18f348f",
+      "suffix": "F4G7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #31"
+    },
+    {
+      "id": "code_32",
+      "code_hash": "9b88d1124866228bf2d9ed0072a83b431884c74faa01ec7299b4d21d42c67233",
+      "suffix": "L5Z2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.594Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #32"
+    },
+    {
+      "id": "code_33",
+      "code_hash": "32ec8cb84514690e2fd63701eada7b6c525bc1584f47d95acc6c64d2cd2ddb26",
+      "suffix": "B7N0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #33"
+    },
+    {
+      "id": "code_34",
+      "code_hash": "7d5e2de9ca569cc788c434ef8d2d96d21dcf2ead66f678fa2546ebae8415fd8a",
+      "suffix": "E3R6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #34"
+    },
+    {
+      "id": "code_35",
+      "code_hash": "dceefd1c0b61b67af5c476194d3992ef32b8baa90a66be1426c4d6aa865323d9",
+      "suffix": "I0O7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #35"
+    },
+    {
+      "id": "code_36",
+      "code_hash": "149d615745731ec29205363fe12a7ee6be1a9cb81197a853efb6387be8048485",
+      "suffix": "D1F9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #36"
+    },
+    {
+      "id": "code_37",
+      "code_hash": "6a9112d08409e2244e121d29785c0eff2388ec20842cec92936374681936c329",
+      "suffix": "K7L3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #37"
+    },
+    {
+      "id": "code_38",
+      "code_hash": "6575e374273a3267fd923aaf70243e4a283c861d0cfd419bdb7c21d315c12ae3",
+      "suffix": "V5B1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #38"
+    },
+    {
+      "id": "code_39",
+      "code_hash": "5c6993c4b670b1e6862cbddfd8ab0e577a4accc6a4890fceb65a7f663c9d22e1",
+      "suffix": "W7E4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #39"
+    },
+    {
+      "id": "code_40",
+      "code_hash": "52f46f6de2c07b96ec820e3d99a3dad2d200cd7b6a0d2fc11ab138a367e28c0a",
+      "suffix": "U2I9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #40"
+    },
+    {
+      "id": "code_41",
+      "code_hash": "05e208358c30e513ca48ac5733ac7e4fb7efd79af4b1f5cf7869b7f28b9530ca",
+      "suffix": "S7D2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #41"
+    },
+    {
+      "id": "code_42",
+      "code_hash": "f2575aa53709475c282f9c89672937dd1895c864145bc004fe4b803def04c9c7",
+      "suffix": "J9K6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #42"
+    },
+    {
+      "id": "code_43",
+      "code_hash": "5c4f86915430de8ce8aa04cb9cc79baeb11e0047aa6173b4a4d7923517ad339f",
+      "suffix": "C3V8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #43"
+    },
+    {
+      "id": "code_44",
+      "code_hash": "3f91cfa4f49dfcfae79afc8d7bbadff1f61add3302407d8a52a738e99d60ac4c",
+      "suffix": "Q1W6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #44"
+    },
+    {
+      "id": "code_45",
+      "code_hash": "8bfd5eacd3906dd0f40bc4cff2d737d7a2e6918d1d7be1578ed1d09d10746131",
+      "suffix": "Y8U3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #45"
+    },
+    {
+      "id": "code_46",
+      "code_hash": "b0ec56fb76eca2cc552004ef3d393342c730947389f0bf88547ef84b9264bb16",
+      "suffix": "A4S0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #46"
+    },
+    {
+      "id": "code_47",
+      "code_hash": "0e12f4561c3e3c03d005b2674f0c5e3e16c17951052b107837e705fbb5d822f4",
+      "suffix": "H3J7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #47"
+    },
+    {
+      "id": "code_48",
+      "code_hash": "b6198366d9912903203f97dab1e9c95c92305192f7b79654cc5279f52c78d2e5",
+      "suffix": "X9C4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #48"
+    },
+    {
+      "id": "code_49",
+      "code_hash": "5e44ee03b0cde9048db69ce7f34c41beb9cecb56cb2d3c6b6da50f4db02f827e",
+      "suffix": "M8Q5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #49"
+    },
+    {
+      "id": "code_50",
+      "code_hash": "398719a49bb3f4dc0819954d0479309e6239ebcf780baa1746ef541172c6c346",
+      "suffix": "T6Y2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #50"
+    },
+    {
+      "id": "code_51",
+      "code_hash": "1f195b721606d62fafcbaafa29d5f1c038ac88e9c77743bc651c166a70b6e8c1",
+      "suffix": "P7A3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #51"
+    },
+    {
+      "id": "code_52",
+      "code_hash": "83015c7a7a68c1b960c4def02ad32e08666752725b4c93138bc0cef77b310bdd",
+      "suffix": "G6H2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #52"
+    },
+    {
+      "id": "code_53",
+      "code_hash": "1e67541334a956a0ac45e6ac73616ca0ffcb928e020a27ebadfcaf28bfc40473",
+      "suffix": "Z4X0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #53"
+    },
+    {
+      "id": "code_54",
+      "code_hash": "f1d1c902215561151621a69463bc0f8d369e5a7cf7ea4c31813698a4c2935484",
+      "suffix": "N6M2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #54"
+    },
+    {
+      "id": "code_55",
+      "code_hash": "5af69572fcab003c47e3a66832d3f6d6bdf62cdeaee29a1c8eb163d104d637d0",
+      "suffix": "R8T4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #55"
+    },
+    {
+      "id": "code_56",
+      "code_hash": "fd79518e05c8d16fcd40071a47425eded4c55278ad6bacaef1fc51efd52aa956",
+      "suffix": "O5P1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #56"
+    },
+    {
+      "id": "code_57",
+      "code_hash": "9113817141d44106bcd15a02a4f19a1f27cc0d6d5b77677e34b2daa195aac30d",
+      "suffix": "F0G4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #57"
+    },
+    {
+      "id": "code_58",
+      "code_hash": "d2209def0eb50eed6cf870e97605c53f9b5e2924ce5fda23923f3f38e4e361e2",
+      "suffix": "L7Z3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #58"
+    },
+    {
+      "id": "code_59",
+      "code_hash": "d3590fd32eff67ed2f945b8f509a6adcf97574aa765b845bfdc3cd2a2487f9f5",
+      "suffix": "B8N2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #59"
+    },
+    {
+      "id": "code_60",
+      "code_hash": "d46481539ef78ddfff03a19e588508204b6b1c0000fe58441455e0f492a9466c",
+      "suffix": "E7R0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #60"
+    },
+    {
+      "id": "code_61",
+      "code_hash": "fa6c7bb22498f9e97adcb67417e80962d6d3e76ef0393d2b042830ba8e519e4b",
+      "suffix": "I4O9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #61"
+    },
+    {
+      "id": "code_62",
+      "code_hash": "e39f798a9f0840563997adb6a48c5c99fb1b919b1ef1e3b6d9fa78470031ae41",
+      "suffix": "D1F7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #62"
+    },
+    {
+      "id": "code_63",
+      "code_hash": "14d5e24c284bb8ed900935861beab1def72f95748ee50f8cd2ed97c8b18df938",
+      "suffix": "K9L5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #63"
+    },
+    {
+      "id": "code_64",
+      "code_hash": "347bbc289833c109dffc7050999d45ece9508415cb6ed0c4258cdf8293c62b69",
+      "suffix": "V0B6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #64"
+    },
+    {
+      "id": "code_65",
+      "code_hash": "bea886b789e6613709ffae164e4902ec1b0f11c7bbf74685fb1c38d2c89ca76b",
+      "suffix": "W9E2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #65"
+    },
+    {
+      "id": "code_66",
+      "code_hash": "70c7409e264a37aca072a6088fbe6d3a584d5f37b05443dd290cae770325a9d2",
+      "suffix": "U1I6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #66"
+    },
+    {
+      "id": "code_67",
+      "code_hash": "1dc903b764d91f6ddb5c703a07e072b14d8749964adcc93dfd35ad0201f5753b",
+      "suffix": "S4D2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #67"
+    },
+    {
+      "id": "code_68",
+      "code_hash": "c6e8aa68b7264b256771b1e82a848c0afe21e9fe5d1376a0bae953f3e1559242",
+      "suffix": "J3K8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #68"
+    },
+    {
+      "id": "code_69",
+      "code_hash": "e1f926a24aff2bf9c2e7d31b0cf2bf858597fcb9f8f3a27d0646ee62acab3791",
+      "suffix": "C9V2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #69"
+    },
+    {
+      "id": "code_70",
+      "code_hash": "11c71b6deed74d818100d1c37b82a225e6cf753d685b66ed3a527ad5246d497b",
+      "suffix": "Q4W1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #70"
+    },
+    {
+      "id": "code_71",
+      "code_hash": "563f335a12e7282560439ecfcfc8c30588a1d1943089a7b47813ff504f5fc680",
+      "suffix": "Y6U2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #71"
+    },
+    {
+      "id": "code_72",
+      "code_hash": "7161a09e66a3a6699fa698e88afb391539bb14a176ddf2a3796a21cf7150610d",
+      "suffix": "A4S1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #72"
+    },
+    {
+      "id": "code_73",
+      "code_hash": "2edb26216d344b144637eca9e90f9c23fbe4aee1309c5e97082da70280468c5a",
+      "suffix": "H2J6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #73"
+    },
+    {
+      "id": "code_74",
+      "code_hash": "e3f76c4d1f519bd45bba06eea93fa0b804de86ceb435d18b17051e6c7a37563a",
+      "suffix": "X8C3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #74"
+    },
+    {
+      "id": "code_75",
+      "code_hash": "bb64eeecd0e80696b02b9725fe8bc1f6c41062bbaa4ca6c73b78af9abff98bdf",
+      "suffix": "M6Q2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #75"
+    },
+    {
+      "id": "code_76",
+      "code_hash": "5a2711df12348404c4164c89dc38a730a59a483a270af975e3a0f4253af3dffb",
+      "suffix": "T4Y0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #76"
+    },
+    {
+      "id": "code_77",
+      "code_hash": "0a82ab8496f26bcf35ad37e63d87255b7f5e77878b5cea85b01e1f5edba51c9a",
+      "suffix": "P5A2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #77"
+    },
+    {
+      "id": "code_78",
+      "code_hash": "6ec46150c06415bbf3ef48c9a7e91e88cfadd38eba006ad7277f3c145424bc5c",
+      "suffix": "G0H4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #78"
+    },
+    {
+      "id": "code_79",
+      "code_hash": "3835a8b0c137435a577e86bc8163cc65a0d9ae956dcb7a668811b63afc3856e8",
+      "suffix": "Z6X1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #79"
+    },
+    {
+      "id": "code_80",
+      "code_hash": "e32ca8be1183c0deb5f8ba3909d640e53ab5f190af56aa6005fa7ce7417cd7d1",
+      "suffix": "N7M0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #80"
+    },
+    {
+      "id": "code_81",
+      "code_hash": "17a31b612701f392d73fa037880c0e286988c0141f9121052b277428cffde055",
+      "suffix": "R9T5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #81"
+    },
+    {
+      "id": "code_82",
+      "code_hash": "69ec2fbbe5b2431cad3c86ec9adb5c433d61e2110c9d1383fd1084f7232a3c55",
+      "suffix": "O3P7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #82"
+    },
+    {
+      "id": "code_83",
+      "code_hash": "e9a5cabc30a1fd649291fb61b3dceceae8e3f166992b56288f3f0504e6607d31",
+      "suffix": "F4G2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #83"
+    },
+    {
+      "id": "code_84",
+      "code_hash": "80760a4c636c312d97be571b452d0f6ea401d3e2781bb244e143fb148f31217d",
+      "suffix": "L8Z5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #84"
+    },
+    {
+      "id": "code_85",
+      "code_hash": "f80be3f0502f75f1ece5683276872655bacdff66741af9bab1ef9d36d2c04c51",
+      "suffix": "B9N4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #85"
+    },
+    {
+      "id": "code_86",
+      "code_hash": "d0342936b2eda919f1faac422107d35a6fe41c2f8101e0d55d7677d86291e466",
+      "suffix": "E0R5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #86"
+    },
+    {
+      "id": "code_87",
+      "code_hash": "9b9c162b1ffc4ae532e732f700e8d3cde0caaed1f37b5395304cc0db3916c6c0",
+      "suffix": "I9O4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #87"
+    },
+    {
+      "id": "code_88",
+      "code_hash": "6e55a7225b5d47eb4a4b4cb06875ccc9b2de3e03e0733f04113c8ebcb37d7196",
+      "suffix": "D3F7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #88"
+    },
+    {
+      "id": "code_89",
+      "code_hash": "35ef2947b17d0c8deb58b37bcdf8a55f27ebb41a3ffd0b5e2a86668621230e74",
+      "suffix": "K9L4",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #89"
+    },
+    {
+      "id": "code_90",
+      "code_hash": "debaa209487d4fc5b5bd2d05f6376f5a7193d87e01c9674e9e7e8c3ebdd76469",
+      "suffix": "V8B3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #90"
+    },
+    {
+      "id": "code_91",
+      "code_hash": "cc352bbc8de156db6d8bba2ebdb4c01f4fff958742e5db6241fddca20f6264de",
+      "suffix": "W6E2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #91"
+    },
+    {
+      "id": "code_92",
+      "code_hash": "b587c8a44219bc325cc309bac195597d1f4c42ea59e00f902eded55e4d88bb8d",
+      "suffix": "U0I5",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #92"
+    },
+    {
+      "id": "code_93",
+      "code_hash": "46b1b7500b9c40a128ca443e1e2163fe1ea7b48a1c408f30c621f92a6941be2e",
+      "suffix": "S4D1",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #93"
+    },
+    {
+      "id": "code_94",
+      "code_hash": "c025463c4b84b616ac976e56fa7316d01686af7117799bdb6c4d1f0eac1e8ffd",
+      "suffix": "J3K7",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #94"
+    },
+    {
+      "id": "code_95",
+      "code_hash": "b577d619c67ef2948b3f94c3dd79862bb4e406894bbb4226032041ceaab099c2",
+      "suffix": "C1V6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #95"
+    },
+    {
+      "id": "code_96",
+      "code_hash": "6e29fc070151c5612e9d5510dec0296b7f2c3e9d14364e39db02b8c73528d039",
+      "suffix": "Q4W9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #96"
+    },
+    {
+      "id": "code_97",
+      "code_hash": "4a0628364b7c86f3161b7ee79b54b587b5608a6c6df1745edbb2f6c26a5b62c1",
+      "suffix": "Y6U2",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #97"
+    },
+    {
+      "id": "code_98",
+      "code_hash": "99c36c0776737daec27d369f09f6739e1e07e6a4e316cfc6aaf376b386c285fb",
+      "suffix": "A5S3",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #98"
+    },
+    {
+      "id": "code_99",
+      "code_hash": "9db78970f3e2b07576765f1c3a5fdaee5295b436a5eff178da5c8dd67a4fed5d",
+      "suffix": "H1J6",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #99"
+    },
+    {
+      "id": "code_100",
+      "code_hash": "e04a9847b00ff34061022a763e078e786d60dd32f06833e7199be8892d412d7b",
+      "suffix": "X5C9",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T11:49:34.595Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "owner_master_pool",
+      "notes": "Official Database License #100"
+    },
+    {
+      "id": "code_1790684702766_0",
+      "code_hash": "6c17cab582872022946cb889ffb9c229b0906281935964f84666036a7c3d713a",
+      "suffix": "06D8",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T12:25:02.766Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "admin_generator",
+      "notes": "Generated on 9/29/2026"
+    },
+    {
+      "id": "code_1790684702775_1",
+      "code_hash": "7cd66ecbc87962f7f62e82b9faedab2ba0bf10b6eac0c3fa927d57c29ba3b556",
+      "suffix": "187F",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T12:25:02.775Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "admin_generator",
+      "notes": "Generated on 9/29/2026"
+    },
+    {
+      "id": "code_1790684702775_2",
+      "code_hash": "74b94e33c68697de2d1e085292a500f795e62824acb801bdf27b3ff0e5cc16cb",
+      "suffix": "622F",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T12:25:02.775Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "admin_generator",
+      "notes": "Generated on 9/29/2026"
+    },
+    {
+      "id": "code_1790684702775_3",
+      "code_hash": "a4e6262874105e35284cc308c28c84a2555f8859402323a700dc1c4582620974",
+      "suffix": "0AFE",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T12:25:02.775Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "admin_generator",
+      "notes": "Generated on 9/29/2026"
+    },
+    {
+      "id": "code_1790684702775_4",
+      "code_hash": "d1c70637560d64a6d236297a0d2e1753c80b2fce20eb06cf82fbf662e4d7be2f",
+      "suffix": "50A0",
+      "status": "AVAILABLE",
+      "assigned_user_id": null,
+      "created_at": "2026-09-29T12:25:02.775Z",
+      "activated_at": null,
+      "last_used_at": null,
+      "revoked_at": null,
+      "created_by": "admin_generator",
+      "notes": "Generated on 9/29/2026"
+    }
+  ],
+  "access_entitlements": [
+    {
+      "id": "entitlement_admin",
+      "user_id": "user_admin_kalo",
+      "access_code_id": "code_admin_kalo",
+      "granted_at": "2026-09-29T12:26:53.146Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "entitlement_1",
+      "user_id": "user_master",
+      "access_code_id": "code_1",
+      "granted_at": "2026-09-29T11:49:34.595Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ent_1790682578228_v3xs",
+      "user_id": "usr_l8z1",
+      "access_code_id": "code_1",
+      "granted_at": "2026-09-29T11:49:38.228Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ent_1790684361006_q5i7",
+      "user_id": "usr_r3t5",
+      "access_code_id": "code_3",
+      "granted_at": "2026-09-29T12:19:21.006Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ent_1790684485707_xcsz",
+      "user_id": "usr_e9r4",
+      "access_code_id": "code_8",
+      "granted_at": "2026-09-29T12:21:25.707Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ent_1790684830298_fhk2",
+      "user_id": "usr_c5b9",
+      "access_code_id": "code_2",
+      "granted_at": "2026-09-29T12:27:10.298Z",
+      "status": "ACTIVE"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1790683025253_09fw",
+      "user_id": "user_master",
+      "name": "Vintage Hiking & Wilderness T-Shirt",
+      "product_type": "T-Shirt",
+      "niche": "Hiking & Wilderness",
+      "style": "Vintage",
+      "audience": "Unisex (25-34) Outdoor Lovers",
+      "concept_count": 1,
+      "status": "Ready",
+      "opportunity_score": {
+        "search_demand": 84,
+        "competition": 58,
+        "trend_momentum": 89,
+        "niche_specificity": 82,
+        "commercial_intent": 79,
+        "seasonality": 70,
+        "profit_potential": 85,
+        "ip_risk_rating": "LOW",
+        "overall_score": 81,
+        "disclaimer": "This score is an analytical indicator, not a sales prediction."
+      },
+      "risk_analysis": {
+        "risk_level": "LOW",
+        "detected_evidence": [
+          "Clean generic aesthetic keywords",
+          "No registered character marks"
+        ],
+        "ai_inference": "Low risk of trademark collision based on public search indexes.",
+        "needs_human_review": false,
+        "trademark_flags": [],
+        "copyright_flags": [],
+        "celebrity_flags": [],
+        "brand_flags": [],
+        "marketplace_policy_notes": "Compliant with standard POD marketplace policies when avoiding trademarked terms.",
+        "suggested_modifications": [
+          "Keep text original and expressive."
+        ],
+        "disclaimer": "GiveMePOD provides automated screening and market analysis. It does not provide legal advice."
+      },
+      "concepts": [
+        {
+          "id": "c1",
+          "title": "Vintage Hiking & Wilderness Signature Edition",
+          "headline": "Designed for the modern Unisex",
+          "target_customer": "Unisex (25-34) Outdoor Lovers",
+          "product_type": "T-Shirt",
+          "design_angle": "Elevated Vintage composition tailored for Hiking & Wilderness",
+          "visual_direction": "Balanced typography with hand-crafted vector focal art and clean negative space",
+          "keywords": [
+            "Hiking & Wilderness gift",
+            "Vintage T-Shirt",
+            "aesthetic Hiking & Wilderness"
+          ],
+          "why_interesting": "Strong emotional resonance and giftability in target sub-demographic",
+          "risks": "Low risk. Avoid direct imitation of existing top-selling listings.",
+          "recommended_platforms": [
+            "Etsy",
+            "Shopify",
+            "Printify",
+            "Amazon Merch"
+          ]
+        }
+      ],
+      "selected_concept": {
+        "id": "c1",
+        "title": "Vintage Hiking & Wilderness Signature Edition",
+        "headline": "Designed for the modern Unisex",
+        "target_customer": "Unisex (25-34) Outdoor Lovers",
+        "product_type": "T-Shirt",
+        "design_angle": "Elevated Vintage composition tailored for Hiking & Wilderness",
+        "visual_direction": "Balanced typography with hand-crafted vector focal art and clean negative space",
+        "keywords": [
+          "Hiking & Wilderness gift",
+          "Vintage T-Shirt",
+          "aesthetic Hiking & Wilderness"
+        ],
+        "why_interesting": "Strong emotional resonance and giftability in target sub-demographic",
+        "risks": "Low risk. Avoid direct imitation of existing top-selling listings.",
+        "recommended_platforms": [
+          "Etsy",
+          "Shopify",
+          "Printify",
+          "Amazon Merch"
+        ]
+      },
+      "design": {
+        "title": "Vintage Hiking & Wilderness Signature Edition Artwork",
+        "concept": "Elevated Vintage composition tailored for Hiking & Wilderness",
+        "image_prompt": "Commercial print-on-demand graphic design for T-Shirt, featuring Balanced typography with hand-crafted vector focal art and clean negative space, theme: Hiking & Wilderness, Vintage style, clean vector lines, high resolution, isolated on transparent background, no t-shirt mockup, no human model, direct to garment print ready.",
+        "negative_prompt": "mockup, human model, wrinkled fabric, blurry, copyright logos, photographic person, 3d render",
+        "print_specifications": {
+          "resolution": "4500 x 5400 px",
+          "color_profile": "sRGB IEC61966-2.1",
+          "dpi": 300,
+          "dimensions": "15 x 18 inches"
+        },
+        "recommended_product": "Premium Heavyweight T-Shirt",
+        "color_palette": [
+          "#0f172a",
+          "#f8fafc",
+          "#6366f1",
+          "#e2e8f0"
+        ],
+        "transparent_background": true
+      },
+      "mockups": [
+        {
+          "id": 1,
+          "type": "hero",
+          "is_hero": true,
+          "title": "Main Etsy Hero Mockup",
+          "purpose": "Primary search thumbnail & hero presentation (CTR-optimized)",
+          "scene": "Clean aesthetic premium studio presentation for T-Shirt with subtle textured background.",
+          "camera": "Front 90-degree flat overhead view, crisp 50mm f/4 lens, hyper-sharp focus.",
+          "lighting": "Soft diffused natural morning studio light, subtle gradient falloff.",
+          "composition": "T-Shirt centered with 15% breathable negative space, eye-catching color contrast.",
+          "product_placement": "Product laid flat, artwork \"Vintage Hiking & Wilderness Signature Edition Artwork\" centered at precise 1:1 scale on chest/front area.",
+          "negative_prompt": "distorted anatomy, blurred text, garish watermarks, cluttered props, fake reflections.",
+          "preview_bg_color": "#15171e",
+          "badge": "HERO 01"
+        },
+        {
+          "id": 2,
+          "type": "lifestyle",
+          "title": "Lifestyle in Motion",
+          "purpose": "Showcase real-world usage and relatable emotional connection",
+          "scene": "Contemporary coffee shop patio or sunlit urban loft featuring T-Shirt.",
+          "camera": "Medium portrait shot, 85mm lens at f/2.0 with creamy background bokeh.",
+          "lighting": "Warm ambient golden-hour natural side lighting.",
+          "composition": "Rule of thirds, model wearing/holding ${productType}, graphic clearly legible.",
+          "product_placement": "Natural drape and movement showing fabric texture and drape.",
+          "negative_prompt": "unnatural posture, plastic skin, distorted fingers, dark shadows.",
+          "preview_bg_color": "#1e1c18",
+          "badge": "LIFESTYLE 02"
+        },
+        {
+          "id": 3,
+          "type": "closeup",
+          "title": "Macro Print & Fabric Detail",
+          "purpose": "Demonstrate premium direct-to-garment print clarity and fabric weave",
+          "scene": "Macro studio tabletop highlighting tactile weave and ink absorption.",
+          "camera": "100mm macro lens at 35-degree angle, sharp micro-contrast.",
+          "lighting": "Directional raking light skimming across surface to accentuate high-end material quality.",
+          "composition": "Tight crop on typography and central vector graphic element.",
+          "product_placement": "Taut surface showing ink bonding with zero cracking or fading.",
+          "negative_prompt": "pixelated artifacts, digital blur, oversaturated highlights.",
+          "preview_bg_color": "#181a24",
+          "badge": "MACRO 03"
+        },
+        {
+          "id": 4,
+          "type": "flatlay",
+          "title": "Styled Outfit Flat Lay",
+          "purpose": "Style inspiration & outfit pairing to trigger impulse purchasing",
+          "scene": "Reclaimed weathered wood or neutral linen flatlay table with matching curated everyday accessories.",
+          "camera": "Top-down 90-degree bird-eye perspective.",
+          "lighting": "Bright, balanced neutral daylight with soft ambient contact shadows.",
+          "composition": "T-Shirt neatly arranged alongside sunglasses, notebook, or denim jacket.",
+          "product_placement": "Unwrinkled display with artwork completely unobstructed in central view.",
+          "negative_prompt": "messy, overlapping props covering artwork, harsh dark shadows.",
+          "preview_bg_color": "#211d19",
+          "badge": "FLAT LAY 04"
+        },
+        {
+          "id": 5,
+          "type": "studio",
+          "title": "Minimalist Clean Studio",
+          "purpose": "High-contrast catalog showcase with zero visual distractions",
+          "scene": "Modern architectural concrete or smooth matte gallery wall backdrop.",
+          "camera": "Straight-on eye-level view, 50mm prime lens.",
+          "lighting": "Balanced dual softbox lighting eliminating harsh shadows.",
+          "composition": "Minimalist display on natural beechwood hanger or sleek stand.",
+          "product_placement": "Crisp symmetrical alignment with clear silhouette.",
+          "negative_prompt": "tilted horizon, uneven lighting, dust spots, wrinkles.",
+          "preview_bg_color": "#1c1e26",
+          "badge": "STUDIO 05"
+        },
+        {
+          "id": 6,
+          "type": "outdoor",
+          "title": "Outdoor Environmental",
+          "purpose": "Connect product to adventure, fresh air, and seasonal vibes",
+          "scene": "Sun-dappled botanical park, forest trail, or coastal promenade.",
+          "camera": "Action walking frame, 35mm wide documentary style.",
+          "lighting": "Natural open sunlight with golden reflections.",
+          "composition": "Dynamic posture showing real fit in active environment.",
+          "product_placement": "Naturally worn with realistic garment creasing.",
+          "negative_prompt": "blown-out highlights, motion blur, bad eyes.",
+          "preview_bg_color": "#16221a",
+          "badge": "OUTDOOR 06"
+        },
+        {
+          "id": 7,
+          "type": "desk",
+          "title": "Workstation & Daily Setup",
+          "purpose": "Everyday creative and casual lifestyle integration",
+          "scene": "Minimalist Scandinavian oak desk with laptop, plant, and artisan coffee.",
+          "camera": "High 45-degree angle desk overview.",
+          "lighting": "Warm lamp illumination paired with window glow.",
+          "composition": "Cozy productive desk aesthetic complementing the ${style} vibe.",
+          "product_placement": "Carefully placed to highlight front graphic prominently.",
+          "negative_prompt": "cluttered cords, reflective glare on design.",
+          "preview_bg_color": "#221d1b",
+          "badge": "DESK 07"
+        },
+        {
+          "id": 8,
+          "type": "home",
+          "title": "Cozy Home Environment",
+          "purpose": "Comfort, warmth, and weekend relaxation aesthetic",
+          "scene": "Warm living room with textured boucle sofa and soft neutral throw blankets.",
+          "camera": "Medium intimate lifestyle portrait, 50mm f/1.8.",
+          "lighting": "Diffused window light and gentle interior lamps.",
+          "composition": "Relaxed seated pose conveying comfort and premium softness.",
+          "product_placement": "Casual drape highlighting soft feel and wearable quality.",
+          "negative_prompt": "messy background, flash photography glare.",
+          "preview_bg_color": "#281f1b",
+          "badge": "HOME 08"
+        },
+        {
+          "id": 9,
+          "type": "gift",
+          "title": "Gift Packaging & Unboxing",
+          "purpose": "Position product as the ultimate thoughtful gift for holidays and celebrations",
+          "scene": "Festive or minimalist unboxing setting with recyclable kraft box and satin ribbon.",
+          "camera": "Top-angled reveal shot catching the first-look moment.",
+          "lighting": "Warm celebratory rim lighting.",
+          "composition": "Box partially opened with ${productType} neatly tissue-wrapped inside.",
+          "product_placement": "Folded reveal displaying the graphic hero center.",
+          "negative_prompt": "damaged box, messy plastic bags, cheap appearance.",
+          "preview_bg_color": "#251e22",
+          "badge": "GIFT 09"
+        },
+        {
+          "id": 10,
+          "type": "model",
+          "title": "Fashion Model Lookbook",
+          "purpose": "High-end apparel brand aesthetic showing modern fit and styling",
+          "scene": "Urban architectural entryway with clean lines and subtle neutral tones.",
+          "camera": "Full 3/4 fashion editorial shot, 70mm lens.",
+          "lighting": "High-fashion editorial beauty dish lighting with soft edge rim.",
+          "composition": "Confident contemporary pose styled with current trend footwear and trousers.",
+          "product_placement": "Flawless fit emphasizing true-to-size retail drape.",
+          "negative_prompt": "deformed anatomy, awkward hands, exaggerated expressions.",
+          "preview_bg_color": "#1b2029",
+          "badge": "MODEL 10"
+        },
+        {
+          "id": 11,
+          "type": "detail",
+          "title": "Size Guide & Craftsmanship Badge",
+          "purpose": "Eradicate buyer hesitation with clear sizing and spec callouts",
+          "scene": "Clean catalog graphic layout with dimension lines and fabric badges.",
+          "camera": "Flat technical reference angle, 50mm.",
+          "lighting": "Even, shadowless high-CRI 95+ studio light.",
+          "composition": "Clear annotations for chest width, length, and premium stitching.",
+          "product_placement": "Garment laid flat with precise measurement callouts.",
+          "negative_prompt": "unreadable typography, conflicting measurements.",
+          "preview_bg_color": "#191b22",
+          "badge": "SPECS 11"
+        }
+      ],
+      "seo_listing": {
+        "seo_title": "Vintage Hiking & Wilderness T-Shirt, Aesthetic Graphic Apparel, Unique Gift for Unisex",
+        "tags": [
+          "Hiking & Wilderness gift",
+          "Vintage shirt",
+          "aesthetic graphic tee",
+          "unisex streetwear",
+          "cozy everyday wear",
+          "birthday gift idea",
+          "minimalist apparel",
+          "trendy clothing",
+          "eco friendly print",
+          "custom design gift",
+          "casual comfy outfit",
+          "unique artwork tee",
+          "holiday gift item"
+        ],
+        "description": "✨ ELEVATE YOUR WARDROBE WITH OUR VINTAGE T-SHIRT\n\nCrafted with premium materials and printed using cutting-edge Direct-to-Garment technology.\n\n- Retail Unisex Fit\n- Soft ring-spun material\n- High durability and colorfast inks\n- Thoughtfully packaged for gift-giving.",
+        "short_description": "Make a statement with this premium Vintage T-Shirt, designed for true Hiking & Wilderness fans.",
+        "materials": "100% Ring-spun cotton, Eco-friendly non-toxic inks",
+        "personalization_instructions": "Enter optional custom text or initials if desired.",
+        "alt_text": "Vintage style T-Shirt showcasing Hiking & Wilderness graphics.",
+        "buyer_faq": [
+          {
+            "q": "What is the sizing fit?",
+            "a": "Standard unisex fit. For an oversized look, size up 1-2 sizes."
+          },
+          {
+            "q": "Care instructions?",
+            "a": "Machine wash cold inside out, tumble dry low."
+          }
+        ],
+        "price_range": {
+          "min": 22.99,
+          "max": 28.99,
+          "currency": "USD"
+        },
+        "keyword_clusters": {
+          "primary": "Hiking & Wilderness T-Shirt",
+          "secondary": [
+            "Vintage T-Shirt",
+            "aesthetic Hiking & Wilderness"
+          ],
+          "long_tail": [
+            "gift for Hiking & Wilderness lover",
+            "vintage style Hiking & Wilderness shirt"
+          ],
+          "buyer_intent": [
+            "buy Hiking & Wilderness gift",
+            "best Hiking & Wilderness apparel"
+          ],
+          "seasonal": [
+            "holiday Hiking & Wilderness present"
+          ]
+        }
+      },
+      "pinterest_pins": [
+        {
+          "pin_title": "Vintage Hiking & Wilderness T-Shirt Aesthetic",
+          "description": "The perfect everyday statement piece for Hiking & Wilderness enthusiasts. Available now!",
+          "keywords": [
+            "#Hiking&Wilderness",
+            "#aestheticoutfit",
+            "#giftguide",
+            "#etsyshop"
+          ],
+          "cta": "Tap to shop this design",
+          "image_concept": "Styled aesthetic flat lay with matching accessories",
+          "destination_url": "https://etsy.com",
+          "suggested_board": "Hiking & Wilderness Style & Gift Inspo"
+        },
+        {
+          "pin_title": "Gift Ideas for Hiking & Wilderness Lovers",
+          "description": "Looking for the most thoughtful Hiking & Wilderness gift? Check out this unique T-Shirt.",
+          "keywords": [
+            "#giftideas",
+            "#birthdaygifts",
+            "#uniquefinds"
+          ],
+          "cta": "Click to discover sizes & colors",
+          "image_concept": "Gift box unboxing presentation reveal",
+          "destination_url": "https://etsy.com",
+          "suggested_board": "Thoughtful Gifts & Holiday Inspo"
+        },
+        {
+          "pin_title": "Cozy Daily Wardrobe: Vintage Edition",
+          "description": "Soft, durable, and stylish. Pair this with your favorite daily outfit.",
+          "keywords": [
+            "#ootd",
+            "#minimalistfashion",
+            "#comfystyle"
+          ],
+          "cta": "See customer reviews",
+          "image_concept": "Lifestyle model wearing garment in coffee shop",
+          "destination_url": "https://etsy.com",
+          "suggested_board": "Daily Outfit Inspo"
+        },
+        {
+          "pin_title": "Must-Have T-Shirt for Hiking & Wilderness",
+          "description": "Stand out with this original Vintage artwork. Printed with sustainable inks.",
+          "keywords": [
+            "#streetwearstyle",
+            "#graphictees",
+            "#podproducts"
+          ],
+          "cta": "Shop the collection",
+          "image_concept": "Clean modern studio presentation",
+          "destination_url": "https://etsy.com",
+          "suggested_board": "Modern Streetwear"
+        },
+        {
+          "pin_title": "Detail Spotlight: Premium DTG Print",
+          "description": "See the micro-details and soft fabric weave up close.",
+          "keywords": [
+            "#qualityclothing",
+            "#dtgprinting",
+            "#etsyfinds"
+          ],
+          "cta": "Check price on Etsy",
+          "image_concept": "Macro close-up shot of print on fabric",
+          "destination_url": "https://etsy.com",
+          "suggested_board": "Quality Artisan Goods"
+        }
+      ],
+      "profit": {
+        "product_cost": 8.5,
+        "shipping": 4.5,
+        "selling_price": 25.99,
+        "marketplace_fee": 2.1,
+        "payment_processing": 0.85,
+        "ad_cost": 2.5,
+        "other_costs": 0.5,
+        "currency": "USD",
+        "gross_revenue": 25.99,
+        "estimated_fees": 2.95,
+        "estimated_cost": 8.5,
+        "estimated_ad_cost": 2.5,
+        "estimated_profit": 7.04,
+        "profit_margin": 27.1
+      },
+      "created_at": "2026-09-29T11:57:05.253Z",
+      "updated_at": "2026-09-29T11:57:40.400Z"
+    },
+    {
+      "id": "proj_sample_1",
+      "user_id": "user_master",
+      "name": "Vintage Retro Hiking Club T-Shirt",
+      "product_type": "T-Shirt",
+      "niche": "Outdoor & Hiking",
+      "style": "Vintage / Distressed",
+      "audience": "Nature lovers, weekend hikers, camp enthusiasts (25-45)",
+      "concept_count": 3,
+      "status": "Ready",
+      "is_sample": true,
+      "created_at": "2026-09-27T11:49:34.595Z",
+      "updated_at": "2026-09-29T11:49:34.595Z",
+      "opportunity_score": {
+        "search_demand": 86,
+        "competition": 54,
+        "trend_momentum": 92,
+        "niche_specificity": 88,
+        "commercial_intent": 84,
+        "seasonality": 72,
+        "profit_potential": 80,
+        "ip_risk_rating": "LOW",
+        "overall_score": 83,
+        "disclaimer": "This score is an analytical indicator, not a sales prediction."
+      },
+      "risk_analysis": {
+        "risk_level": "LOW",
+        "detected_evidence": [
+          "General outdoor typography",
+          "Fictitious \"Wanderer Trail Society\" badge"
+        ],
+        "ai_inference": "No registered brand trademarks or national park proprietary logos detected.",
+        "needs_human_review": false,
+        "trademark_flags": [],
+        "copyright_flags": [],
+        "celebrity_flags": [],
+        "brand_flags": [],
+        "marketplace_policy_notes": "Complies with Etsy & Amazon Merch policies. Avoid using trademarked hiking gear brands.",
+        "suggested_modifications": [
+          "Keep mountains stylized and non-specific to avoid landmark proprietary designs."
+        ],
+        "disclaimer": "GiveMePOD provides automated screening and market analysis. It does not provide legal advice."
+      },
+      "concepts": [
+        {
+          "id": "c1",
+          "title": "Lost in the Pines — Vintage Camp Society",
+          "headline": "Lost in the Pines / Found in the Wilderness",
+          "target_customer": "Solo hikers & trail backpackers",
+          "product_type": "T-Shirt",
+          "design_angle": "1970s Pacific Northwest retro badge with muted pines and vintage sunburst.",
+          "visual_direction": "Arch typography, distressed line art mountain silhouette, aged cream & forest green palette.",
+          "keywords": [
+            "vintage hiking shirt",
+            "lost in the pines",
+            "retro national park tee",
+            "outdoorsman gift"
+          ],
+          "why_interesting": "Strong evergreen gift potential with high gifting intent during spring and autumn.",
+          "risks": "Low risk. Ensure no similarity to official National Park Service logos.",
+          "recommended_platforms": [
+            "Etsy",
+            "Shopify",
+            "Amazon Merch"
+          ]
+        }
+      ],
+      "selected_concept": {
+        "id": "c1",
+        "title": "Lost in the Pines — Vintage Camp Society",
+        "headline": "Lost in the Pines / Found in the Wilderness",
+        "target_customer": "Solo hikers & trail backpackers",
+        "product_type": "T-Shirt",
+        "design_angle": "1970s Pacific Northwest retro badge with muted pines and vintage sunburst.",
+        "visual_direction": "Arch typography, distressed line art mountain silhouette, aged cream & forest green palette.",
+        "keywords": [
+          "vintage hiking shirt",
+          "lost in the pines",
+          "retro national park tee",
+          "outdoorsman gift"
+        ],
+        "why_interesting": "Strong evergreen gift potential with high gifting intent during spring and autumn.",
+        "risks": "Low risk. Ensure no similarity to official National Park Service logos.",
+        "recommended_platforms": [
+          "Etsy",
+          "Shopify",
+          "Amazon Merch"
+        ]
+      },
+      "design": {
+        "title": "Lost in the Pines Vintage Badge",
+        "concept": "Retro weathered circular badge featuring dual pines, mountain ridge, and sun ray gradient.",
+        "image_prompt": "Commercial POD t-shirt graphic artwork, vintage 1970s national park inspired emblem with pine trees, stylized sunburst behind alpine mountains, text \"LOST IN THE PINES\" curved along top arc, distressed screen print texture, clean vector edges, isolated on transparent background, no t-shirt mockup, no human model.",
+        "negative_prompt": "photograph, realistic person, t-shirt folds, mannequin, blurry, trademarked logos, low resolution, 3d render",
+        "print_specifications": {
+          "resolution": "4500 x 5400 px",
+          "color_profile": "sRGB IEC61966-2.1",
+          "dpi": 300,
+          "dimensions": "15 x 18 inches"
+        },
+        "recommended_product": "Bella+Canvas 3001 or Comfort Colors 1717",
+        "color_palette": [
+          "#1B3B2B",
+          "#E8D8B0",
+          "#C86D51",
+          "#2C3539"
+        ],
+        "transparent_background": true
+      },
+      "mockups": [
+        {
+          "id": 1,
+          "type": "hero",
+          "is_hero": true,
+          "title": "Main Etsy Hero Mockup",
+          "purpose": "Primary search thumbnail & hero presentation",
+          "scene": "Clean modern aesthetic studio display with subtle wooden floor accent",
+          "camera": "Front 90-degree flat overhead view, crisp 50mm lens",
+          "lighting": "Soft diffused natural morning window light",
+          "composition": "Garment perfectly centered, 15% negative margin",
+          "product_placement": "Apparel laid flat with natural soft folds, artwork centered across chest at exact 1:1 scale",
+          "negative_prompt": "distorted hands, blur, text watermark, fake badge, cluttered backdrop",
+          "preview_bg_color": "#1a1b23",
+          "badge": "HERO 01"
+        },
+        {
+          "id": 2,
+          "type": "lifestyle",
+          "title": "Outdoor Lifestyle",
+          "purpose": "Show product in genuine context of use",
+          "scene": "Mountain trail lookout overlooking pine forest ridge at golden hour",
+          "camera": "Medium waist-up portrait shot, f/2.8 shallow depth of field",
+          "lighting": "Warm golden backlight highlighting fabric texture",
+          "composition": "Subject slightly off-center (rule of thirds), chest graphic sharply in focus",
+          "product_placement": "Worn comfortably by outdoor enthusiast holding hiking map",
+          "negative_prompt": "ugly hands, oversaturated, unnatural pose",
+          "preview_bg_color": "#1f2421",
+          "badge": "LIFESTYLE 02"
+        },
+        {
+          "id": 3,
+          "type": "closeup",
+          "title": "Fabric & Print Detail",
+          "purpose": "Proof of print quality and direct-to-garment detail",
+          "scene": "Macro studio shot highlighting vintage distressed texture and cotton weave",
+          "camera": "100mm macro lens at 45-degree angle",
+          "lighting": "Directional raking light revealing tactile garment texture",
+          "composition": "Close crop on typography and mountain line-art",
+          "product_placement": "Taut fabric showing crisp micro-details without cracking",
+          "negative_prompt": "pixelated, blurry, digital noise",
+          "preview_bg_color": "#181920",
+          "badge": "DETAIL 03"
+        },
+        {
+          "id": 4,
+          "type": "flatlay",
+          "title": "Styled Flat Lay",
+          "purpose": "Aesthetic outfit pairing inspiration",
+          "scene": "Rustic reclaimed oak table with trail compass, leather boots, and ceramic camp mug",
+          "camera": "Top-down bird-eye view",
+          "lighting": "Even overhead ambient lighting",
+          "composition": "T-shirt flanked symmetrically with outdoor accessories",
+          "product_placement": "Folded aesthetic lay with full chest print unobstructed",
+          "negative_prompt": "cluttered, overlapping items over artwork",
+          "preview_bg_color": "#211d19",
+          "badge": "FLAT LAY 04"
+        },
+        {
+          "id": 5,
+          "type": "studio",
+          "title": "Clean Minimalist Studio",
+          "purpose": "High-contrast product showcase",
+          "scene": "Seamless neutral warm-gray paper sweep backdrop",
+          "camera": "Eye-level studio portrait, 85mm lens",
+          "lighting": "Dual softbox studio lighting, neutral reflections",
+          "composition": "Centered hanger display with gentle shadow drop",
+          "product_placement": "Wooden hanger holding crisp unworn t-shirt",
+          "negative_prompt": "wrinkled garment, harsh specular reflections",
+          "preview_bg_color": "#22232a",
+          "badge": "STUDIO 05"
+        },
+        {
+          "id": 6,
+          "type": "outdoor",
+          "title": "Woodland Forest Walk",
+          "purpose": "Casual outdoor lifestyle context",
+          "scene": "Sunlit redwood or pine forest path with dappled sunlight",
+          "camera": "Walking motion capture, natural action",
+          "lighting": "Sunbeams breaking through tree canopy",
+          "composition": "Torso frame showing movement and drape",
+          "product_placement": "Garment moving naturally with model steps",
+          "negative_prompt": "unnatural posture, washed out colors",
+          "preview_bg_color": "#16221c",
+          "badge": "OUTDOOR 06"
+        },
+        {
+          "id": 7,
+          "type": "desk",
+          "title": "Camp Gear & Workstation",
+          "purpose": "Indoor preparation lifestyle",
+          "scene": "Timber work table with adventure journal and coffee flask",
+          "camera": "35mm angle shot",
+          "lighting": "Warm tungsten lamp alongside window glow",
+          "composition": "Partial fold displaying main artwork clearly",
+          "product_placement": "Neatly folded ready for packing",
+          "negative_prompt": "dark shadow over print, out of focus graphic",
+          "preview_bg_color": "#201b1a",
+          "badge": "GEAR 07"
+        },
+        {
+          "id": 8,
+          "type": "home",
+          "title": "Cozy Cabin Atmosphere",
+          "purpose": "Casual comfortable living context",
+          "scene": "Rustic log cabin interior with stone hearth in blurred background",
+          "camera": "Eye level relaxed sitting pose",
+          "lighting": "Warm ambient fireplace glow",
+          "composition": "Medium shot focused on chest graphic",
+          "product_placement": "Soft cotton relaxed fit on subject",
+          "negative_prompt": "flash glare, unnatural skin tone",
+          "preview_bg_color": "#2a1e17",
+          "badge": "HOME 08"
+        },
+        {
+          "id": 9,
+          "type": "gift",
+          "title": "Unboxing & Gift Presentation",
+          "purpose": "Gift-giving appeal for holidays and birthdays",
+          "scene": "Eco-friendly kraft gift box with natural twine ribbon and gift tag",
+          "camera": "45-degree angle unboxing reveal",
+          "lighting": "Soft bright studio lighting",
+          "composition": "Box open with rolled t-shirt exposing the vintage emblem",
+          "product_placement": "Carefully packaged with tissue paper tuck",
+          "negative_prompt": "cheap plastic packaging, crumpled paper",
+          "preview_bg_color": "#26201b",
+          "badge": "GIFT 09"
+        },
+        {
+          "id": 10,
+          "type": "model",
+          "title": "Modern Streetwear Model",
+          "purpose": "Show fit and contemporary styling",
+          "scene": "Urban park boundary with brick wall and green ivy",
+          "camera": "Front 3/4 fashion portrait, 50mm f/1.8",
+          "lighting": "Open shade with silver reflector fill",
+          "composition": "Full upper-body frame paired with denim",
+          "product_placement": "Tucked casual styling showcasing full print placement",
+          "negative_prompt": "distorted anatomy, extra limbs, artificial smile",
+          "preview_bg_color": "#1e2126",
+          "badge": "MODEL 10"
+        },
+        {
+          "id": 11,
+          "type": "detail",
+          "title": "Sizing & Quality Guide",
+          "purpose": "Conversion optimization and buyer confidence",
+          "scene": "Crisp high-resolution measurement overlay and collar tag detail",
+          "camera": "High angle flat reference view",
+          "lighting": "Neutral 5500K clinical product lighting",
+          "composition": "Includes subtle measurement guide indicators",
+          "product_placement": "Ribbed collar, double-needle stitching visible",
+          "negative_prompt": "confusing charts, low resolution text",
+          "preview_bg_color": "#1a1c22",
+          "badge": "SPECS 11"
+        }
+      ],
+      "seo_listing": {
+        "seo_title": "Vintage Hiking Shirt, Lost In The Pines Mountain T-Shirt, Retro Camp Graphic Tee, Outdoorsy Nature Gift, Forest Wanderer Apparel",
+        "tags": [
+          "vintage hiking shirt",
+          "mountain graphic tee",
+          "retro camp tshirt",
+          "lost in the pines",
+          "outdoorsman gift",
+          "nature lover apparel",
+          "camping clothes",
+          "pacific northwest",
+          "pine tree shirt",
+          "national park gift",
+          "hiker birthday gift",
+          "adventure clothing",
+          "distressed graphic"
+        ],
+        "short_description": "Embrace the trail with our vintage \"Lost in the Pines\" graphic tee — crafted on ultra-soft ring-spun cotton with an authentic distressed 70s outdoorsy badge.",
+        "description": "🌲 ESCAPE INTO THE WILDERNESS WITH OUR VINTAGE HIKING SHIRT\n\nWhether you are summiting peaks or daydreaming of mountain air from home, our \"Lost in the Pines\" tee delivers effortless vintage style and all-day comfort.\n\n✨ PRODUCT HIGHLIGHTS:\n- 100% Airlume combed and ring-spun cotton (Bella+Canvas 3001)\n- Direct-to-Garment (DTG) premium printing with soft, breathable finish\n- Retail unisex fit that runs true to size\n- Pre-shrunk fabric that holds its shape wash after wash\n\n🎁 THE PERFECT GIFT FOR:\n- Hikers, backpackers, and trail runners\n- National park lovers & campers\n- Father’s Day, birthdays, and holiday stocking stuffers\n\n🧺 CARE INSTRUCTIONS:\nMachine wash cold inside-out with like colors. Tumble dry low or hang dry for longevity.",
+        "materials": "100% Airlume combed and ring-spun cotton, Eco-friendly water-based inks, Tear-away label",
+        "personalization_instructions": "Standard design. For custom trail names on back collar, please add your custom text in the notes (up to 15 characters).",
+        "alt_text": "Vintage green hiking t-shirt featuring Lost In The Pines circular mountain badge and distressed pine tree artwork.",
+        "buyer_faq": [
+          {
+            "q": "How does the sizing run?",
+            "a": "This tee features a modern unisex retail fit. For a relaxed or oversized streetwear look, we recommend sizing up one size."
+          },
+          {
+            "q": "How long does production and shipping take?",
+            "a": "Each shirt is custom printed within 2-4 business days. Standard US shipping takes 3-5 business days."
+          }
+        ],
+        "price_range": {
+          "min": 24.99,
+          "max": 29.99,
+          "currency": "USD"
+        },
+        "keyword_clusters": {
+          "primary": "vintage hiking shirt",
+          "secondary": [
+            "mountain graphic tee",
+            "retro camp tshirt",
+            "pine tree shirt"
+          ],
+          "long_tail": [
+            "lost in the pines outdoorsy tee",
+            "national park wanderer shirt gift"
+          ],
+          "buyer_intent": [
+            "hiking shirt birthday gift",
+            "retro camp shirt for women men"
+          ],
+          "seasonal": [
+            "autumn camp trail clothing",
+            "spring outdoor backpacker tee"
+          ]
+        }
+      },
+      "pinterest_pins": [
+        {
+          "pin_title": "Vintage Hiking Shirt | Lost In The Pines Retro Tee",
+          "description": "The ultimate vintage aesthetic t-shirt for mountain wanderers and campfire souls. Made with super soft combed cotton.",
+          "keywords": [
+            "#hikingshirt",
+            "#vintageclothing",
+            "#outdoorsy",
+            "#campaesthetic",
+            "#etsyfinds"
+          ],
+          "cta": "Shop the retro trail collection now",
+          "image_concept": "Close-up flat lay with camp mug and rugged compass",
+          "destination_url": "https://etsy.com/shop/yourshop",
+          "suggested_board": "Outdoor Aesthetic & Hiking Outfits"
+        },
+        {
+          "pin_title": "Cozy Cabin Style: Retro Pine Tree Graphic Tee",
+          "description": "Elevate your weekend trail wardrobe with this 70s-inspired national park emblem shirt.",
+          "keywords": [
+            "#cabinlife",
+            "#cottagecore",
+            "#campingoutfit",
+            "#naturetees"
+          ],
+          "cta": "Tap to see available colors",
+          "image_concept": "Model sitting on cabin porch holding coffee",
+          "destination_url": "https://etsy.com/shop/yourshop",
+          "suggested_board": "Casual Weekend Wardrobe"
+        },
+        {
+          "pin_title": "Gift Guide for Nature Lovers & Hikers",
+          "description": "Looking for a thoughtful gift for the trail lover in your life? This distressed outdoor tee is a guaranteed favorite.",
+          "keywords": [
+            "#giftsforhim",
+            "#giftsforher",
+            "#hikergifts",
+            "#birthdaygift"
+          ],
+          "cta": "Find their size today",
+          "image_concept": "Styled gift box unboxing with craft twine",
+          "destination_url": "https://etsy.com/shop/yourshop",
+          "suggested_board": "Unique Gift Ideas"
+        },
+        {
+          "pin_title": "Minimalist Outdoor Streetwear Inspo",
+          "description": "Pair this vintage mountain graphic tee with distressed denim and boots for an effortless earthy look.",
+          "keywords": [
+            "#streetwear",
+            "#earthyvibes",
+            "#sustainablefashion",
+            "#outfitideas"
+          ],
+          "cta": "Discover the full look",
+          "image_concept": "Waist-up fashion portrait with ivy background",
+          "destination_url": "https://etsy.com/shop/yourshop",
+          "suggested_board": "Streetwear & Everyday Style"
+        },
+        {
+          "pin_title": "1970s National Park Aesthetic T-Shirt",
+          "description": "Sunbursts, evergreen pines, and weathered lettering. The nostalgic camp tee you will wear every weekend.",
+          "keywords": [
+            "#70svintage",
+            "#nationalparks",
+            "#wanderlust",
+            "#graphictees"
+          ],
+          "cta": "Check price and reviews on Etsy",
+          "image_concept": "Macro view of screen-printed distressed badge detail",
+          "destination_url": "https://etsy.com/shop/yourshop",
+          "suggested_board": "Vintage Graphic Tees"
+        }
+      ],
+      "profit": {
+        "product_cost": 8.5,
+        "shipping": 4.25,
+        "selling_price": 26.99,
+        "marketplace_fee": 2.15,
+        "payment_processing": 0.85,
+        "ad_cost": 2.5,
+        "other_costs": 0.5,
+        "currency": "USD",
+        "gross_revenue": 26.99,
+        "estimated_fees": 3,
+        "estimated_cost": 8.5,
+        "estimated_ad_cost": 2.5,
+        "estimated_profit": 8.74,
+        "profit_margin": 32.4,
+        "profitMargin": 32.4
+      }
+    }
+  ],
+  "ai_jobs": [
+    {
+      "id": "job_1790683029055",
+      "user_id": "user_master",
+      "project_id": "proj_1790683025253_09fw",
+      "status": "COMPLETED",
+      "current_step": "Project successfully generated and ready!",
+      "progress": 100,
+      "created_at": "2026-09-29T11:57:09.055Z",
+      "completed_at": "2026-09-29T11:57:40.400Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log_1790684830299_xp12s",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix C5B9",
+      "user_id": "usr_c5b9",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:27:10.299Z"
+    },
+    {
+      "id": "log_1790684825852_t4at8",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix L8Z1",
+      "user_id": "usr_l8z1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:27:05.852Z"
+    },
+    {
+      "id": "log_1790684817798_6i7k3",
+      "action": "ADMIN_LOGIN_SUCCESS",
+      "details": "Master Admin authenticated with kalo@123",
+      "user_id": "user_admin_kalo",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:26:57.798Z"
+    },
+    {
+      "id": "log_1790684713505_26dta",
+      "action": "ADMIN_IMPORT_CODES",
+      "details": "Imported & securely hashed 0 private access codes",
+      "user_id": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:25:13.505Z"
+    },
+    {
+      "id": "log_1790684702777_52edt",
+      "action": "ADMIN_GENERATE_CODES",
+      "details": "Generated 5 access codes",
+      "user_id": "admin",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:25:02.777Z"
+    },
+    {
+      "id": "log_1790684517382_p4mhk",
+      "action": "FAILED_KEY_LOGIN",
+      "details": "Failed key attempt from IP: ::ffff:127.0.0.1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:21:57.382Z"
+    },
+    {
+      "id": "log_1790684510836_l5dpj",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix L8Z1",
+      "user_id": "usr_l8z1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:21:50.836Z"
+    },
+    {
+      "id": "log_1790684485712_dlowb",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix E9R4",
+      "user_id": "usr_e9r4",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:21:25.712Z"
+    },
+    {
+      "id": "log_1790684361007_0b90q",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix R3T5",
+      "user_id": "usr_r3t5",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:19:21.007Z"
+    },
+    {
+      "id": "log_1790683218671_ugxtn",
+      "action": "FAILED_KEY_LOGIN",
+      "details": "Failed key attempt from IP: ::ffff:127.0.0.1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:00:18.671Z"
+    },
+    {
+      "id": "log_1790683213736_e3dc8",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix L8Z1",
+      "user_id": "usr_l8z1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T12:00:13.736Z"
+    },
+    {
+      "id": "log_1790683025254_koofx",
+      "action": "PROJECT_CREATED",
+      "details": "Project created: Vintage Hiking & Wilderness T-Shirt",
+      "user_id": "user_master",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T11:57:05.254Z"
+    },
+    {
+      "id": "log_1790682967061_ks6kc",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix L8Z1",
+      "user_id": "usr_l8z1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T11:56:07.061Z"
+    },
+    {
+      "id": "log_1790682964336_309fg",
+      "action": "FAILED_KEY_LOGIN",
+      "details": "Failed key attempt from IP: ::ffff:127.0.0.1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T11:56:04.336Z"
+    },
+    {
+      "id": "log_1790682583873_pvj3x",
+      "action": "FAILED_KEY_LOGIN",
+      "details": "Failed key attempt from IP: ::ffff:127.0.0.1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T11:49:43.873Z"
+    },
+    {
+      "id": "log_1790682578228_4c1cr",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "User authenticated with key suffix L8Z1",
+      "user_id": "usr_l8z1",
+      "ip": "::ffff:127.0.0.1",
+      "timestamp": "2026-09-29T11:49:38.228Z"
+    },
+    {
+      "id": "log_1",
+      "action": "SYSTEM_BOOT",
+      "details": "GiveMePOD server-side initialized with secure hash table and sample workspace.",
+      "timestamp": "2026-09-29T11:49:34.595Z"
+    }
+  ],
+  "provider_configs": [
+    {
+      "id": "p_gemini",
+      "name": "Google Gemini 3.8 Flash (AI Logic & Reasoning)",
+      "type": "AI",
+      "enabled": true,
+      "configured": true,
+      "status": "Healthy",
+      "last_health_check": "2026-09-29T11:49:34.595Z",
+      "notes": "Server-side Gemini 3.8 Flash model via @google/genai"
+    },
+    {
+      "id": "p_imagen",
+      "name": "Gemini Visual Studio (Mockups & Artwork)",
+      "type": "IMAGE_GEN",
+      "enabled": true,
+      "configured": true,
+      "status": "Healthy",
+      "last_health_check": "2026-09-29T11:49:34.595Z",
+      "notes": "Prompt-first commercial engine with SVG/Canvas and Image generator fallback"
+    },
+    {
+      "id": "p_etsy",
+      "name": "Etsy Seller API",
+      "type": "INTEGRATION",
+      "enabled": true,
+      "configured": false,
+      "status": "Warning",
+      "last_health_check": "2026-09-29T11:49:34.595Z",
+      "notes": "GiveMePOD is an independent application. Connect credentials in Settings."
+    },
+    {
+      "id": "p_pinterest",
+      "name": "Pinterest API OAuth",
+      "type": "INTEGRATION",
+      "enabled": true,
+      "configured": false,
+      "status": "Warning",
+      "last_health_check": "2026-09-29T11:49:34.595Z",
+      "notes": "Pinterest OAuth client ready for user authorization."
+    },
+    {
+      "id": "p_trends",
+      "name": "POD Market Signal Streamer",
+      "type": "MARKET_DATA",
+      "enabled": true,
+      "configured": true,
+      "status": "Healthy",
+      "last_health_check": "2026-09-29T11:49:34.595Z",
+      "notes": "Aggregated velocity signals from Etsy, Pinterest, and Google Trends"
+    }
+  ],
+  "feature_flags": [
+    {
+      "key": "trend_hunter",
+      "name": "Trend Hunter",
+      "description": "Enable market trend exploration and keyword signals",
+      "enabled": true
+    },
+    {
+      "key": "design_studio",
+      "name": "AI Design Studio",
+      "description": "Enable AI artwork and prompt engineering",
+      "enabled": true
+    },
+    {
+      "key": "mockup_factory",
+      "name": "Mockup Factory (11 Images)",
+      "description": "Generate 11 high-converting listing mockups",
+      "enabled": true
+    },
+    {
+      "key": "risk_scanner",
+      "name": "IP / Trademark Risk Scanner",
+      "description": "Screen phrases and concepts for trademark infringement",
+      "enabled": true
+    },
+    {
+      "key": "etsy_seo",
+      "name": "Etsy Listing & Tag Generator",
+      "description": "Generate high-ranking titles and 13 tags",
+      "enabled": true
+    },
+    {
+      "key": "pinterest_factory",
+      "name": "Pinterest Content Factory",
+      "description": "Generate 5 high-converting Pinterest pin packages",
+      "enabled": true
+    },
+    {
+      "key": "profit_calc",
+      "name": "Profit & Margin Calculator",
+      "description": "Compute net unit margins across 6 currencies",
+      "enabled": true
+    },
+    {
+      "key": "seasonal_planner",
+      "name": "Seasonal Planner",
+      "description": "Timeline calendar for POD retail holidays",
+      "enabled": true
+    },
+    {
+      "key": "ai_advisor",
+      "name": "AI POD Advisor",
+      "description": "Contextual AI copilot in the workspace",
+      "enabled": true
+    }
+  ],
+  "failed_attempts": {
+    "::ffff:127.0.0.1_key_auth": {
+      "count": 1
+    }
+  },
+  "emergency_locked": false,
+  "maintenance_mode": false,
+  "maintenance_message": "GiveMePOD is temporarily performing scheduled maintenance. Please check back shortly."
+}
